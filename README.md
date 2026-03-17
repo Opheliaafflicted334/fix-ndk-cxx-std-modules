@@ -79,8 +79,12 @@ cxx_Link_mode string "static" C++ 运行时库链接方式，可选 "static" 或
 3. 保持代码简洁，添加必要注释
 4. 更新相关文档
 
-许可证
+## 许可证
 
 无
+
+## 参考链接
+
+- https://quadnucyard.github.io/posts/cpp/clang-std-modules.html
 
 > 本文档由AI编写并经过修改
