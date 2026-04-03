@@ -14,9 +14,9 @@
 
 Android 的 Bionic C 库中的字符处理函数（如 isdigit、isalpha 等）使用 static __inline 定义，导致：
 
-· 在 C++20 模块中产生内部链接
-· 违反单一定义规则（ODR）
-· 模块导入时产生重复定义错误
+- 在 C++20 模块中产生内部链接
+- 违反单一定义规则（ODR）
+- 模块导入时产生重复定义错误
 
 ## 解决方案
 
@@ -66,10 +66,10 @@ cxx_Link_mode string "static" C++ 运行时库链接方式，可选 "static" 或
 
 ## 测试环境
 
-· NDK 版本：r29 (29.0.14206865)
-· 编译器：Clang++ (NDK 内置)
-· 构建系统：xmake v3.0.7+HEAD.77d94ad
-· C++ 标准：C++23
+- NDK 版本：r29 (29.0.14206865)
+- 编译器：Clang++ (NDK 内置)
+- 构建系统：xmake v3.0.7+HEAD.77d94ad
+- C++ 标准：C++23
 
 
 ## 贡献指南
